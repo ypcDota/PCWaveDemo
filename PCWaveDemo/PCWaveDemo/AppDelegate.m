@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "PCViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    PCViewController *PCVc = [[PCViewController alloc] init];
+    PCVc.title = @"PCViewController";
+    PCVc.tabBarItem.image = [UIImage imageNamed:@"tab_bd_normal"];
+   
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:PCVc];
+    [nav.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    nav.navigationBar.shadowImage = [UIImage new];
+    UIColor *textColor = [UIColor whiteColor];
+    nav.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:textColor,NSFontAttributeName:[UIFont fontWithName:@"AppleGothic" size:20]};
+    
+    UITabBarController *tabVc = [[UITabBarController alloc] init];
+    [tabVc addChildViewController:nav];
+    tabVc.tabBar.tintColor = [UIColor redColor];
+    self.window.rootViewController = tabVc;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

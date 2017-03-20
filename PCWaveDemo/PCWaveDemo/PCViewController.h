@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PCViewController.h
 //  PCWaveDemo
 //
 //  Created by ypc on 17/3/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PCViewController : UIViewController
 
 @end
-

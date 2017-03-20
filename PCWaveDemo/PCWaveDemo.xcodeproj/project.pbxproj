@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		F13544091E7FA03000E5B6D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13544081E7FA03000E5B6D3 /* main.m */; };
 		F135440C1E7FA03000E5B6D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F135440B1E7FA03000E5B6D3 /* AppDelegate.m */; };
-		F135440F1E7FA03000E5B6D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F135440E1E7FA03000E5B6D3 /* ViewController.m */; };
 		F13544121E7FA03100E5B6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13544101E7FA03100E5B6D3 /* Main.storyboard */; };
 		F13544141E7FA03100E5B6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13544131E7FA03100E5B6D3 /* Assets.xcassets */; };
 		F13544171E7FA03100E5B6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13544151E7FA03100E5B6D3 /* LaunchScreen.storyboard */; };
 		F13544221E7FA03100E5B6D3 /* PCWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13544211E7FA03100E5B6D3 /* PCWaveDemoTests.m */; };
 		F135442D1E7FA03100E5B6D3 /* PCWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F135442C1E7FA03100E5B6D3 /* PCWaveDemoUITests.m */; };
+		F135443C1E7FA15C00E5B6D3 /* PCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F135443B1E7FA15C00E5B6D3 /* PCViewController.m */; };
+		F135443F1E7FA28B00E5B6D3 /* PCWave.m in Sources */ = {isa = PBXBuildFile; fileRef = F135443E1E7FA28B00E5B6D3 /* PCWave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		F13544081E7FA03000E5B6D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F135440A1E7FA03000E5B6D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F135440B1E7FA03000E5B6D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F135440D1E7FA03000E5B6D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F135440E1E7FA03000E5B6D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F13544111E7FA03100E5B6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F13544131E7FA03100E5B6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13544161E7FA03100E5B6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		F13544281E7FA03100E5B6D3 /* PCWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F135442C1E7FA03100E5B6D3 /* PCWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCWaveDemoUITests.m; sourceTree = "<group>"; };
 		F135442E1E7FA03100E5B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F135443A1E7FA15C00E5B6D3 /* PCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCViewController.h; sourceTree = "<group>"; };
+		F135443B1E7FA15C00E5B6D3 /* PCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCViewController.m; sourceTree = "<group>"; };
+		F135443D1E7FA28B00E5B6D3 /* PCWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCWave.h; sourceTree = "<group>"; };
+		F135443E1E7FA28B00E5B6D3 /* PCWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCWave.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,12 @@
 		F13544061E7FA03000E5B6D3 /* PCWaveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F135443D1E7FA28B00E5B6D3 /* PCWave.h */,
+				F135443E1E7FA28B00E5B6D3 /* PCWave.m */,
 				F135440A1E7FA03000E5B6D3 /* AppDelegate.h */,
 				F135440B1E7FA03000E5B6D3 /* AppDelegate.m */,
-				F135440D1E7FA03000E5B6D3 /* ViewController.h */,
-				F135440E1E7FA03000E5B6D3 /* ViewController.m */,
+				F135443A1E7FA15C00E5B6D3 /* PCViewController.h */,
+				F135443B1E7FA15C00E5B6D3 /* PCViewController.m */,
 				F13544101E7FA03100E5B6D3 /* Main.storyboard */,
 				F13544131E7FA03100E5B6D3 /* Assets.xcassets */,
 				F13544151E7FA03100E5B6D3 /* LaunchScreen.storyboard */,
@@ -273,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F135440F1E7FA03000E5B6D3 /* ViewController.m in Sources */,
 				F135440C1E7FA03000E5B6D3 /* AppDelegate.m in Sources */,
+				F135443F1E7FA28B00E5B6D3 /* PCWave.m in Sources */,
+				F135443C1E7FA15C00E5B6D3 /* PCViewController.m in Sources */,
 				F13544091E7FA03000E5B6D3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
