@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13544091E7FA03000E5B6D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13544081E7FA03000E5B6D3 /* main.m */; };
+		F135440C1E7FA03000E5B6D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F135440B1E7FA03000E5B6D3 /* AppDelegate.m */; };
+		F135440F1E7FA03000E5B6D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F135440E1E7FA03000E5B6D3 /* ViewController.m */; };
+		F13544121E7FA03100E5B6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13544101E7FA03100E5B6D3 /* Main.storyboard */; };
+		F13544141E7FA03100E5B6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13544131E7FA03100E5B6D3 /* Assets.xcassets */; };
+		F13544171E7FA03100E5B6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13544151E7FA03100E5B6D3 /* LaunchScreen.storyboard */; };
+		F13544221E7FA03100E5B6D3 /* PCWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13544211E7FA03100E5B6D3 /* PCWaveDemoTests.m */; };
+		F135442D1E7FA03100E5B6D3 /* PCWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F135442C1E7FA03100E5B6D3 /* PCWaveDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F135441E1E7FA03100E5B6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13543FC1E7FA02F00E5B6D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13544031E7FA02F00E5B6D3;
+			remoteInfo = PCWaveDemo;
+		};
+		F13544291E7FA03100E5B6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13543FC1E7FA02F00E5B6D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13544031E7FA02F00E5B6D3;
+			remoteInfo = PCWaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F13544041E7FA02F00E5B6D3 /* PCWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13544081E7FA03000E5B6D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F135440A1E7FA03000E5B6D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F135440B1E7FA03000E5B6D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F135440D1E7FA03000E5B6D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F135440E1E7FA03000E5B6D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13544111E7FA03100E5B6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13544131E7FA03100E5B6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13544161E7FA03100E5B6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13544181E7FA03100E5B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F135441D1E7FA03100E5B6D3 /* PCWaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCWaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13544211E7FA03100E5B6D3 /* PCWaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCWaveDemoTests.m; sourceTree = "<group>"; };
+		F13544231E7FA03100E5B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13544281E7FA03100E5B6D3 /* PCWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F135442C1E7FA03100E5B6D3 /* PCWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCWaveDemoUITests.m; sourceTree = "<group>"; };
+		F135442E1E7FA03100E5B6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13544011E7FA02F00E5B6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F135441A1E7FA03100E5B6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13544251E7FA03100E5B6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13543FB1E7FA02F00E5B6D3 = {
+			isa = PBXGroup;
+			children = (
+				F13544061E7FA03000E5B6D3 /* PCWaveDemo */,
+				F13544201E7FA03100E5B6D3 /* PCWaveDemoTests */,
+				F135442B1E7FA03100E5B6D3 /* PCWaveDemoUITests */,
+				F13544051E7FA02F00E5B6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13544051E7FA02F00E5B6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13544041E7FA02F00E5B6D3 /* PCWaveDemo.app */,
+				F135441D1E7FA03100E5B6D3 /* PCWaveDemoTests.xctest */,
+				F13544281E7FA03100E5B6D3 /* PCWaveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13544061E7FA03000E5B6D3 /* PCWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F135440A1E7FA03000E5B6D3 /* AppDelegate.h */,
+				F135440B1E7FA03000E5B6D3 /* AppDelegate.m */,
+				F135440D1E7FA03000E5B6D3 /* ViewController.h */,
+				F135440E1E7FA03000E5B6D3 /* ViewController.m */,
+				F13544101E7FA03100E5B6D3 /* Main.storyboard */,
+				F13544131E7FA03100E5B6D3 /* Assets.xcassets */,
+				F13544151E7FA03100E5B6D3 /* LaunchScreen.storyboard */,
+				F13544181E7FA03100E5B6D3 /* Info.plist */,
+				F13544071E7FA03000E5B6D3 /* Supporting Files */,
+			);
+			path = PCWaveDemo;
+			sourceTree = "<group>";
+		};
+		F13544071E7FA03000E5B6D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13544081E7FA03000E5B6D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F13544201E7FA03100E5B6D3 /* PCWaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13544211E7FA03100E5B6D3 /* PCWaveDemoTests.m */,
+				F13544231E7FA03100E5B6D3 /* Info.plist */,
+			);
+			path = PCWaveDemoTests;
+			sourceTree = "<group>";
+		};
+		F135442B1E7FA03100E5B6D3 /* PCWaveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F135442C1E7FA03100E5B6D3 /* PCWaveDemoUITests.m */,
+				F135442E1E7FA03100E5B6D3 /* Info.plist */,
+			);
+			path = PCWaveDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13544031E7FA02F00E5B6D3 /* PCWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13544311E7FA03200E5B6D3 /* Build configuration list for PBXNativeTarget "PCWaveDemo" */;
+			buildPhases = (
+				F13544001E7FA02F00E5B6D3 /* Sources */,
+				F13544011E7FA02F00E5B6D3 /* Frameworks */,
+				F13544021E7FA02F00E5B6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCWaveDemo;
+			productName = PCWaveDemo;
+			productReference = F13544041E7FA02F00E5B6D3 /* PCWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F135441C1E7FA03100E5B6D3 /* PCWaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13544341E7FA03200E5B6D3 /* Build configuration list for PBXNativeTarget "PCWaveDemoTests" */;
+			buildPhases = (
+				F13544191E7FA03100E5B6D3 /* Sources */,
+				F135441A1E7FA03100E5B6D3 /* Frameworks */,
+				F135441B1E7FA03100E5B6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F135441F1E7FA03100E5B6D3 /* PBXTargetDependency */,
+			);
+			name = PCWaveDemoTests;
+			productName = PCWaveDemoTests;
+			productReference = F135441D1E7FA03100E5B6D3 /* PCWaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13544271E7FA03100E5B6D3 /* PCWaveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13544371E7FA03200E5B6D3 /* Build configuration list for PBXNativeTarget "PCWaveDemoUITests" */;
+			buildPhases = (
+				F13544241E7FA03100E5B6D3 /* Sources */,
+				F13544251E7FA03100E5B6D3 /* Frameworks */,
+				F13544261E7FA03100E5B6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F135442A1E7FA03100E5B6D3 /* PBXTargetDependency */,
+			);
+			name = PCWaveDemoUITests;
+			productName = PCWaveDemoUITests;
+			productReference = F13544281E7FA03100E5B6D3 /* PCWaveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13543FC1E7FA02F00E5B6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.ypc;
+				TargetAttributes = {
+					F13544031E7FA02F00E5B6D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F135441C1E7FA03100E5B6D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13544031E7FA02F00E5B6D3;
+					};
+					F13544271E7FA03100E5B6D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13544031E7FA02F00E5B6D3;
+					};
+				};
+			};
+			buildConfigurationList = F13543FF1E7FA02F00E5B6D3 /* Build configuration list for PBXProject "PCWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13543FB1E7FA02F00E5B6D3;
+			productRefGroup = F13544051E7FA02F00E5B6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13544031E7FA02F00E5B6D3 /* PCWaveDemo */,
+				F135441C1E7FA03100E5B6D3 /* PCWaveDemoTests */,
+				F13544271E7FA03100E5B6D3 /* PCWaveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13544021E7FA02F00E5B6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13544171E7FA03100E5B6D3 /* LaunchScreen.storyboard in Resources */,
+				F13544141E7FA03100E5B6D3 /* Assets.xcassets in Resources */,
+				F13544121E7FA03100E5B6D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F135441B1E7FA03100E5B6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13544261E7FA03100E5B6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13544001E7FA02F00E5B6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F135440F1E7FA03000E5B6D3 /* ViewController.m in Sources */,
+				F135440C1E7FA03000E5B6D3 /* AppDelegate.m in Sources */,
+				F13544091E7FA03000E5B6D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13544191E7FA03100E5B6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13544221E7FA03100E5B6D3 /* PCWaveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13544241E7FA03100E5B6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F135442D1E7FA03100E5B6D3 /* PCWaveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F135441F1E7FA03100E5B6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13544031E7FA02F00E5B6D3 /* PCWaveDemo */;
+			targetProxy = F135441E1E7FA03100E5B6D3 /* PBXContainerItemProxy */;
+		};
+		F135442A1E7FA03100E5B6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13544031E7FA02F00E5B6D3 /* PCWaveDemo */;
+			targetProxy = F13544291E7FA03100E5B6D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13544101E7FA03100E5B6D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13544111E7FA03100E5B6D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13544151E7FA03100E5B6D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13544161E7FA03100E5B6D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F135442F1E7FA03100E5B6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13544301E7FA03100E5B6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13544321E7FA03200E5B6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PCWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.PCWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F13544331E7FA03200E5B6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PCWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.PCWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F13544351E7FA03200E5B6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PCWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.PCWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCWaveDemo.app/PCWaveDemo";
+			};
+			name = Debug;
+		};
+		F13544361E7FA03200E5B6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PCWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.PCWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCWaveDemo.app/PCWaveDemo";
+			};
+			name = Release;
+		};
+		F13544381E7FA03200E5B6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PCWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.PCWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PCWaveDemo;
+			};
+			name = Debug;
+		};
+		F13544391E7FA03200E5B6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PCWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pclvyi.PCWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PCWaveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13543FF1E7FA02F00E5B6D3 /* Build configuration list for PBXProject "PCWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F135442F1E7FA03100E5B6D3 /* Debug */,
+				F13544301E7FA03100E5B6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13544311E7FA03200E5B6D3 /* Build configuration list for PBXNativeTarget "PCWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13544321E7FA03200E5B6D3 /* Debug */,
+				F13544331E7FA03200E5B6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F13544341E7FA03200E5B6D3 /* Build configuration list for PBXNativeTarget "PCWaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13544351E7FA03200E5B6D3 /* Debug */,
+				F13544361E7FA03200E5B6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F13544371E7FA03200E5B6D3 /* Build configuration list for PBXNativeTarget "PCWaveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13544381E7FA03200E5B6D3 /* Debug */,
+				F13544391E7FA03200E5B6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13543FC1E7FA02F00E5B6D3 /* Project object */;
+}
